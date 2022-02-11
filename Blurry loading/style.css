@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 56px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+
+  background-image: url(./img/background.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  animation: blur 2.4s ease-in-out;
+}
+.numbers_loading {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  animation: transition 2s ease-in-out forwards;
+}
+
+@keyframes blur {
+  from {
+    filter: blur(30px);
+  }
+  to {
+    filter: blur(0px);
+  }
+}
+@keyframes transition {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
