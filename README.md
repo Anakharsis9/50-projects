@@ -8,5 +8,5 @@ This is a small challenge where I do at least one project every day.
 | 1 | [Expanding Cards](https://github.com/Anakharsis9/50-projects/tree/main/Expanding%20Cards) |[Live Demo](https://anakharsis9.github.io/50-projects/Expanding%20Cards/)|
 | 2 | [Progress Steps](https://github.com/Anakharsis9/50-projects/tree/main/Progress%20Steps)  |[Live Demo](https://anakharsis9.github.io/50-projects/Progress%20Steps/)|
 | 3 | [Rotating Navigation Animation](https://github.com/Anakharsis9/50-projects/tree/main/Rotating%20navigation)  |[Live Demo](https://anakharsis9.github.io/50-projects/Rotating%20navigation/)|
-| 4 | [Hidden Search Widget](https://github.com/Anakharsis9/50-projects/tree/main/Hidden%20Search%20Widget) |[Live Demo]()|
+| 4 | [Hidden Search Widget](https://github.com/Anakharsis9/50-projects/tree/main/Hidden%20Search%20Widget) |[Live Demo](https://anakharsis9.github.io/50-projects/Hidden%20Search%20Widget)|
 | 5 | [Blurry Loading](https://github.com/Anakharsis9/50-projects/tree/main/Blurry%20loading) |[Live Demo](https://anakharsis9.github.io/50-projects/Blurry%20loading/)|
