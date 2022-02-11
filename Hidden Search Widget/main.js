@@ -1,9 +1,7 @@
-let salaries = {
-  John: 100,
-  Pete: 300,
-  Mary: 250,
-};
+const searchIcon = document.querySelector(".search-icon");
+const searchInput = document.querySelector(".search-input");
 
-function topSalary(salaries) {
-  
-}
+searchIcon.addEventListener("click", () => {
+  searchInput.classList.toggle("disabled");
+  searchInput.focus();
+});
