@@ -1,0 +1,75 @@
+:root {
+  --ps-color: rgba(69, 50, 240, 1);
+  --xbox-color: rgb(23, 134, 47);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden;
+  color: white;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 12%;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 0.8s ease-in-out;
+}
+
+.content:hover {
+  width: 95%;
+}
+
+.ps {
+  background-image: linear-gradient(
+      to right,
+      rgba(69, 50, 240, 0.6),
+      rgba(69, 50, 240, 0.6)
+    ),
+    url(./img/ps5.png);
+}
+
+.xbox {
+  background-image: linear-gradient(
+      to right,
+      rgba(37, 37, 37, 0.6),
+      rgba(37, 37, 37, 0.6)
+    ),
+    url(./img/xbox.jpg);
+}
+
+.text_header {
+  font-size: 3.8rem;
+  margin-bottom: 70px;
+}
+
+.btn {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: bold;
+  width: 230px;
+  height: 70px;
+  background-color: transparent;
+  border: 3px solid white;
+}
+
+.ps .btn:hover {
+  background-color: var(--ps-color);
+  border: var(--ps-color);
+}
+.xbox .btn:hover {
+  background-color: var(--xbox-color);
+  border: var(--xbox-color);
+}
