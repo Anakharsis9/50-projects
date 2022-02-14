@@ -13,3 +13,4 @@ This is a small challenge where I do at least one project every day.
 | 5   | [Blurry Loading](https://github.com/Anakharsis9/50-projects/tree/main/Blurry%20loading)                     | [Live Demo](https://anakharsis9.github.io/50-projects/Blurry%20loading/)        |
 | 6   | [Scroll Animation](https://github.com/Anakharsis9/50-projects/tree/main/Scroll%20Animation)                 | [Live Demo](https://anakharsis9.github.io/50-projects/Scroll%20Animation/)      |
 | 7   | [Split Landing Page](https://github.com/Anakharsis9/50-projects/tree/main/Split%20Landing%20Page)           | [Live Demo](https://anakharsis9.github.io/50-projects/Split%20Landing%20Page/)  |
+| 8   | [Form Wave](https://github.com/Anakharsis9/50-projects/tree/main/Form%20Wave)                               | [Live Demo](https://anakharsis9.github.io/50-projects/Form%20Wave)              |
