@@ -17,3 +17,4 @@ This is a small challenge where I do at least one project every day.
 | 9   | [Sound Board](https://github.com/Anakharsis9/50-projects/tree/main/Sound%20Board)                           | [Live Demo](https://anakharsis9.github.io/50-projects/Sound%20Board)            |
 | 10  | [Dad Jokes](https://github.com/Anakharsis9/50-projects/tree/main/Dad%20Jokes)                               | [Live Demo](https://anakharsis9.github.io/50-projects/Dad%20Jokes)              |
 | 11  | [Event KeyCodes](https://github.com/Anakharsis9/50-projects/tree/main/Event%20KeyCodes)                     | [Live Demo](https://anakharsis9.github.io/50-projects/Event%20KeyCodes)         |
+| 12  | [Faq Collapse](https://github.com/Anakharsis9/50-projects/tree/main/Faq%20Collapse)                         | [Live Demo](https://anakharsis9.github.io/50-projects/Faq%20Collapse)           |
