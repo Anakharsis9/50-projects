@@ -20,3 +20,4 @@ This is a small challenge where I do at least one project every day.
 | 12  | [Faq Collapse](https://github.com/Anakharsis9/50-projects/tree/main/Faq%20Collapse)                         | [Live Demo](https://anakharsis9.github.io/50-projects/Faq%20Collapse)           |
 | 13  | [Random Choice Picker](https://github.com/Anakharsis9/50-projects/tree/main/Random%20Choice%20Picker)       | [Live Demo](https://anakharsis9.github.io/50-projects/Random%20Choice%20Picker) |
 | 14  | [Animated Navigation](https://github.com/Anakharsis9/50-projects/tree/main/Animated%20Navigation)           | [Live Demo](https://anakharsis9.github.io/50-projects/Animated%20Navigation)    |
+| 15  | [Incrementing Counter](https://github.com/Anakharsis9/50-projects/tree/main/Incrementing%20Counter)         | [Live Demo](https://anakharsis9.github.io/50-projects/Incrementing%20Counter)   |
