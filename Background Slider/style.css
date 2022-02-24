@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+body {
+  overflow-x: hidden;
+  background-image: url(./imgs/mountain.jpg);
+
+}
+
+.container {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.slider {
+  width: 1200px;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.img-wrapper {
+  width: 100%;
+  height: 100%;
+
+}
+
+.img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: none;
+  object-position: center;
+}
+
+.arrow {
+  border: 3px solid rgb(255, 174, 0);
+  padding: 15px;
+  font-size: 2.2rem;
+}
