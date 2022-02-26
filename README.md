@@ -24,3 +24,4 @@ This is a small challenge where I do at least one project every day.
 | 16  | [Drink Water](https://github.com/Anakharsis9/50-projects/tree/main/Drink%20Water)                           | [Live Demo](https://anakharsis9.github.io/50-projects/Drink%20Water)            |
 | 17  | [Movie App](https://github.com/Anakharsis9/50-projects/tree/main/Movie%20App)                               | [Live Demo](https://anakharsis9.github.io/50-projects/Movie%20App)              |
 | 18  | [Background Slider](https://github.com/Anakharsis9/50-projects/tree/main/Background%20Slider)               | [Live Demo](https://anakharsis9.github.io/50-projects/Background%20Slider)      |
+| 19  | [Theme Clock](https://github.com/Anakharsis9/50-projects/tree/main/Theme%20Clock)                           | [Live Demo](https://anakharsis9.github.io/50-projects/Theme%20Clock)            |
