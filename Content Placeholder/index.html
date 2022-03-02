@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Content Placeholder</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card disabled">
+        <div class="card__img">
+          <img
+            class="img"
+            src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2102&q=80"
+            alt="card-image"
+          />
+        </div>
+        <div class="card__content">
+          <div class="card__text">
+            <span class="card__title">Lorem ipsum dolor sit amet</span>
+            <span class="card__description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+              perferendis
+            </span>
+          </div>
+          <div class="card__author">
+            <div class="author__img">
+              <img
+                class="img"
+                src="https://randomuser.me/api/portraits/men/45.jpg"
+                alt="author-in=mg"
+              />
+            </div>
+            <div class="author-info">
+              <span class="author__name">John Doe</span>
+              <span class="card__date">Oct 08, 2020</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card placeholder shimmer">
+        <div class="card__img faux-image"></div>
+        <div class="card__content">
+          <div class="card__text">
+            <span class="card__title faux-text faux-title"></span>
+            <span class="card__description faux-text"></span>
+            <span class="card__description faux-text"></span>
+          </div>
+          <div class="card__author">
+            <div class="author__img faux-image "></div>
+            <div class="author-info">
+              <span class="author__name faux-text"></span>
+              <span class="card__date faux-text"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

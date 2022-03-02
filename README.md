@@ -29,3 +29,4 @@ This is a small challenge where I do at least one project every day.
 | 21  | [Drag N Drop](https://github.com/Anakharsis9/50-projects/tree/main/Drag%20N%20Drop)                         | [Live Demo](https://anakharsis9.github.io/50-projects/Drag%20N%20Drop)          |
 | 22  | [Drawing App](https://github.com/Anakharsis9/50-projects/tree/main/Drawing%20App)                           | [Live Demo](https://anakharsis9.github.io/50-projects/Drawing%20App)            |
 | 23  | [Kinetic Loader](https://github.com/Anakharsis9/50-projects/tree/main/Kinetic%20Loader)                     | [Live Demo](https://anakharsis9.github.io/50-projects/Kinetic%20Loader)         |
+| 24  | [Content Placeholder](https://github.com/Anakharsis9/50-projects/tree/main/Content%20Placeholder)           | [Live Demo](https://anakharsis9.github.io/50-projects/Content%20Placeholder)    |
