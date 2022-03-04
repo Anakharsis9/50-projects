@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  background-color: #921992;
+  border: none;
+  width: 150px;
+  height: 60px;
+  font-size: 1rem;
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn:focus{
+  outline: none;
+}
+
