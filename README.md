@@ -33,3 +33,4 @@ This is a small challenge where I do at least one project every day.
 | 25  | [Sticky Navbar](https://github.com/Anakharsis9/50-projects/tree/main/Sticky%20Navbar)                       | [Live Demo](https://anakharsis9.github.io/50-projects/Sticky%20Navbar)            |
 | 26  | [Double Vertical Slider](https://github.com/Anakharsis9/50-projects/tree/main/Double%20Vertical%20Slider)   | [Live Demo](https://anakharsis9.github.io/50-projects/Double%20Vertical%20Slider) |
 | 27  | [Toast Notification](https://github.com/Anakharsis9/50-projects/tree/main/Toast%20Notification)             | [Live Demo](https://anakharsis9.github.io/50-projects/Toast%20Notification)       |
+| 28  | [Github Profiles](https://github.com/Anakharsis9/50-projects/tree/main/Github%20Profiles)                   | [Live Demo](https://anakharsis9.github.io/50-projects/Github%20Profiles)          |
