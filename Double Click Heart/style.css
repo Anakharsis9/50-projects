@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.title {
+  margin-top: 40px;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.counter-text {
+  margin-top: 10px;
+  display: flex;
+  font-size: 1.1rem;
+}
+.counter {
+  margin: 0px 10px;
+}
+
+.image {
+  width: 300px;
+  height: 450px;
+  margin-top: 30px;
+  background: url("https://images.unsplash.com/photo-1504215680853-026ed2a45def?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80")
+    no-repeat center center/cover;
+  position: relative;
+  overflow: hidden;
+}
+.ripple {
+  position: absolute;
+  background-color: red;
+  width: 50px;
+  height: 50px;
+  transform: translate(-50%, -50%) rotate(45deg) scale(0);
+
+  animation: ripple 0.8s ease-in-out;
+  opacity: 1;
+}
+
+.ripple::before,
+.ripple::after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.ripple::before {
+  left: -25px;
+}
+.ripple::after {
+  top: -25px;
+}
+
+@keyframes ripple {
+  to {
+    transform: translate(-50%, -50%) rotate(45deg) scale(2);
+    opacity: 0;
+  }
+}
