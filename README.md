@@ -36,3 +36,4 @@ This is a small challenge where I do at least one project every day.
 | 28  | [Github Profiles](https://github.com/Anakharsis9/50-projects/tree/main/Github%20Profiles)                   | [Live Demo](https://anakharsis9.github.io/50-projects/Github%20Profiles)          |
 | 29  | [Double Click Heart](https://github.com/Anakharsis9/50-projects/tree/main/Double%20Click%20Heart)           | [Live Demo](https://anakharsis9.github.io/50-projects/Double%20Click%20Heart)     |
 | 30  | [Auto Text Effect](https://github.com/Anakharsis9/50-projects/tree/main/Auto%20Text%20Effect)               | [Live Demo](https://anakharsis9.github.io/50-projects/Auto%20Text%20Effect)       |
+| 31  | [Password Generator](https://github.com/Anakharsis9/50-projects/tree/main/Password%Generator)               | [Live Demo](https://anakharsis9.github.io/50-projects/Password%Generator)         |
