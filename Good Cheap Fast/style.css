@@ -42,15 +42,10 @@
   margin-right: 10px;
 }
 
-.checkbox {
-
-}
-
-
 .checkbox:checked + .slider {
   background-color: #8e44ad;
 }
-.checkbox:checked + .slider::before{
+.checkbox:checked + .slider::before {
   transform: translateX(40px);
 }
 
