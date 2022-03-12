@@ -9,18 +9,22 @@ btn.addEventListener("click", (event) => {
 
 function countDown() {
   let counter = 2;
+  let delay = 1300;
   number.classList.toggle("rotate");
 
-  const intervalId = setInterval(() => {
+  let timeoutId = setTimeout(function updateText() {
     number.innerText = counter--;
-  }, 1400);
+
+    timeoutId = setTimeout(updateText, delay);
+  }, delay);
 
   number.innerText = "3";
+
   setTimeout(() => {
     switchWrappers();
-    clearInterval(intervalId);
+    clearInterval(timeoutId);
     number.classList.toggle("rotate");
-  }, 5200);
+  }, delay * 4);
 }
 
 function switchWrappers() {
