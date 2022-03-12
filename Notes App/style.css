@@ -7,15 +7,16 @@
 
 #app {
   position: relative;
-  overflow-x: hidden;
+  overflow: hidden;
   min-height: 100vh;
   background-color: #7bdaf3;
 }
 .notes {
-  overflow-x: hidden;
+
+  /* overflow-x: hidden; */
   display: flex;
   flex-wrap: wrap;
-  padding: 0px 30px;
+  padding: 0px 30px 30px 30px;
 }
 
 .btn {
@@ -68,5 +69,8 @@ i {
 }
 .textarea:focus {
   outline: none;
+
+}
+.editable{
   height: 95%;
 }

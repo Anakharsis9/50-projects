@@ -38,3 +38,4 @@ This is a small challenge where I do at least one project every day.
 | 30  | [Auto Text Effect](https://github.com/Anakharsis9/50-projects/tree/main/Auto%20Text%20Effect)               | [Live Demo](https://anakharsis9.github.io/50-projects/Auto%20Text%20Effect)       |
 | 31  | [Password Generator](https://github.com/Anakharsis9/50-projects/tree/main/Password%Generator)               | [Live Demo](https://anakharsis9.github.io/50-projects/Password%Generator)         |
 | 32  | [Good Cheap Fast](https://github.com/Anakharsis9/50-projects/tree/main/Good%20Cheap%20Fast)                 | [Live Demo](https://anakharsis9.github.io/50-projects/Good%20Cheap%20Fast)        |
+| 33  | [Notes App](https://github.com/Anakharsis9/50-projects/tree/main/Notes%20App)                               | [Live Demo](https://anakharsis9.github.io/50-projects/Notes%20App)                |

@@ -10,7 +10,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     />
-    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/vue.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js"></script>
     <script src="app.js" defer></script>
   </head>
@@ -19,7 +19,15 @@
       <button @click="createNote" class="btn">
         <i class="fas fa-plus"></i>Add note
       </button>
-      <div class="notes"></div>
+      <div class="notes">
+        <note
+          @update-note="updateNote"
+          @delete-note="deleteNote"
+          v-for="note in notes"
+          :note="note"
+          :key="note.id"
+        ></note>
+      </div>
     </div>
   </body>
 </html>
