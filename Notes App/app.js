@@ -61,7 +61,7 @@ var app = new Vue({
   },
   mounted() {
     try {
-      this.notes = JSON.parse(localStorage.getItem("notes"));
+      this.notes = JSON.parse(localStorage.getItem("notes")) || [];
     } catch (error) {
       localStorage.removeItem("notes");
     }
