@@ -15,6 +15,22 @@
   justify-content: center;
 }
 
-#canvas{
-  transition: 0.5s ease-in-out;
+.wrapper {
+  width: 400px;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.rect {
+  background-color: #1d1d1d;
+  box-shadow: #1d1d1d 0 0 2px;
+  width: 16px;
+  height: 16px;
+  margin: 2px;
+  transition: 2s ease-out;
+}
+
+.rect:hover {
+  transition-duration: 0s;
 }
