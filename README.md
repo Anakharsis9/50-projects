@@ -42,3 +42,4 @@ This is a small challenge where I do at least one project every day.
 | 34  | [Animated Countdown](https://github.com/Anakharsis9/50-projects/tree/main/Animated%20Countdown)             | [Live Demo](https://anakharsis9.github.io/50-projects/Animated%20Countdown)       |
 | 35  | [Image Carousel](https://github.com/Anakharsis9/50-projects/tree/main/Image%20Carousel)                     | [Live Demo](https://anakharsis9.github.io/50-projects/Image%20Carousel)           |
 | 36  | [Hoverboard](https://github.com/Anakharsis9/50-projects/tree/main/Hoverboard)                               | [Live Demo](https://anakharsis9.github.io/50-projects/Hoverboard)                 |
+| 37  | [Pokedex](https://github.com/Anakharsis9/50-projects/tree/main/Pokedex)                                     | [Live Demo](https://anakharsis9.github.io/50-projects/Pokedex)                    |
