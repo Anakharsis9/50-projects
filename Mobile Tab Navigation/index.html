@@ -5,12 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Mobile Tab Navigation</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+      integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
     <script src="script.js" defer></script>
   </head>
   <body>
     <div class="container">
-      
+      <div class="device">
+        <div id="content-container">
+          <img
+            src="https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1053&q=80"
+            alt="home-content"
+            class="content show"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+            alt="home-content"
+            class="content"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1471107340929-a87cd0f5b5f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1266&q=80"
+            alt="home-content"
+            class="content"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80"
+            alt="home-content"
+            class="content"
+          />
+        </div>
+        <nav class="tab-bar">
+          <div class="tab active">
+            <i class="fas fa-home tab-icon"></i>
+            <span class="tab-title">Home</span>
+          </div>
+          <div class="tab">
+            <i class="fas fa-box"></i>
+            <span class="tab-title">Work</span>
+          </div>
+          <div class="tab">
+            <i class="fas fa-book-open"></i>
+            <span class="tab-title">Blog</span>
+          </div>
+          <div class="tab">
+            <i class="fas fa-users"></i>
+            <span class="tab-title">About us</span>
+          </div>
+        </nav>
+      </div>
     </div>
   </body>
 </html>
