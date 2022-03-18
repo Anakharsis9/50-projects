@@ -45,3 +45,4 @@ This is a small challenge where I do at least one project every day.
 | 37  | [Pokedex](https://github.com/Anakharsis9/50-projects/tree/main/Pokedex)                                               | [Live Demo](https://anakharsis9.github.io/50-projects/Pokedex)                          |
 | 38  | [Mobile Tab Navigation](https://github.com/Anakharsis9/50-projects/tree/main/Mobile%20Tab%20Navigation)               | [Live Demo](https://anakharsis9.github.io/50-projects/Mobile%20Tab%20Navigation)        |
 | 39  | [Password Strength Background](https://github.com/Anakharsis9/50-projects/tree/main/Password%20Strength%20Background) | [Live Demo](https://anakharsis9.github.io/50-projects/Password%20Strength%20Background) |
+| 40  | [3d Background Boxes](https://github.com/Anakharsis9/50-projects/tree/main/3d%20Background%20Boxes)                   | [Live Demo](https://anakharsis9.github.io/50-projects/3d%20Background%20Boxes)          |
