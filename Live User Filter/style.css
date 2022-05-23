@@ -17,6 +17,7 @@
 .users-container {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   border-radius: 10px;
+  width: 350px;
 }
 
 .header {
@@ -37,7 +38,7 @@
 
 .search {
   margin-top: 20px;
-  width: 250px;
+  width: 100%;
 }
 
 .search-input {
