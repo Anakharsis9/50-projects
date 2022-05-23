@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Live User Filter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div id="app">
+      <div class="container">
+        <div class="users-container">
+          <div class="header">
+            <div class="title">
+              <h4 class="title-text">Live User Filter</h4>
+              <span class="title-sub-text">Search by name and/or location</span>
+            </div>
+            <div class="search">
+              <input
+                v-model="searchValue"
+                type="text"
+                placeholder="Search"
+                class="search-input"
+              />
+            </div>
+          </div>
+          <div class="content">
+            <div v-if="!getFilteredUsers.length" class="message">Nothing found</div>
+            <user
+              v-for="user in getFilteredUsers"
+              :user="user"
+              :key="user.login.uuid"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
