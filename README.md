@@ -48,3 +48,4 @@ This is a small challenge where I do at least one project every day.
 | 40  | [3d Background Boxes](https://github.com/Anakharsis9/50-projects/tree/main/3d%20Background%20Boxes)                   | [Live Demo](https://anakharsis9.github.io/50-projects/3d%20Background%20Boxes)          |
 | 41  | [Verify Account Ui](https://github.com/Anakharsis9/50-projects/tree/main/Verify%20Account%20Ui)                       | [Live Demo](https://anakharsis9.github.io/50-projects/Verify%20Account%20Ui)            |
 | 42  | [Live User Filter](https://github.com/Anakharsis9/50-projects/tree/main/Live%20User%20Filter)                         | [Live Demo](https://anakharsis9.github.io/50-projects/Live%20User%20Filter)             |
+| 43  | [Feedback Ui Design](https://github.com/Anakharsis9/50-projects/tree/main/Feedback%20Ui%20Design)                     | [Live Demo](https://anakharsis9.github.io/50-projects/Feedback%20Ui%20Design)           |

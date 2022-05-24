@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Feedback Ui Design</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="feedback-card card">
+        <div class="feedback-header">
+          <h4>How satisfied are you with our customer support performance?</h4>
+        </div>
+        <div class="feedback-content">
+          <div class="rating-card" data-feedback="Unhappy">
+            <div class="emoji">😞</div>
+            <span class="rating-title">Unhappy</span>
+          </div>
+          <div class="rating-card" data-feedback="Neutral">
+            <div class="emoji">😐</div>
+            <span class="rating-title">Neutral</span>
+          </div>
+          <div class="rating-card" data-feedback="Satisfied">
+            <div class="emoji">😉</div>
+            <span class="rating-title">Satisfied</span>
+          </div>
+        </div>
+        <div class="feedback-footer">
+          <button class="sendBtn">Send Review</button>
+        </div>
+      </div>
+
+      <div class="thanks-card card hidden">
+        <div class="thanks-header">
+          <span class="emoji">💓</span>
+          <span>Thank you!</span>
+        </div>
+        <div class="thanks-content"></div>
+        <div class="thanks-footer">
+          We'll use your feedback to improve our customer support
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
