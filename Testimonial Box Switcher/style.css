@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f4f4;
+}
+
+.progress {
+  width: 0%;
+  height: 3px;
+  border-radius: 10px;
+  background-color: white;
+  animation: progress 10s linear infinite;
+}
+
+@keyframes progress {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.testimonial {
+  width: 800px;
+
+  background-color: #476ce4;
+  padding: 30px;
+  border-radius: 15px;
+  color: white;
+  font-size: 1rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 799px) {
+  .testimonial {
+    width: 100%;
+    padding: 20px;
+  }
+}
+
+.testimonial__header {
+  padding: 0px 30px;
+}
+
+.testimonial__content {
+  width: 100%;
+  display: flex;
+  padding: 20px 0;
+}
+
+.testimonial__content::before {
+  content: url("quotation-mark-left.svg");
+}
+.testimonial__content::after {
+  content: url("quotation-mark-right.svg");
+}
+
+.testimonial__text {
+  padding: 0 10px;
+  line-height: 1.8rem;
+}
+
+.testimonial__footer {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+}
+
+.author__img {
+  width: 75px;
+  height: 75px;
+}
+
+.author__img img {
+  border-radius: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+
+.author__info {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.author__name {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
