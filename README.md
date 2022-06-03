@@ -52,3 +52,4 @@ This is a small challenge where I do at least one project every day.
 | 44  | [Custom Range Slider](https://github.com/Anakharsis9/50-projects/tree/main/Custom%20Range%20Slider)                   | [Live Demo](https://anakharsis9.github.io/50-projects/Custom%20Range%20Slider)          |
 | 45  | [Netflix Mobile Navigation](https://github.com/Anakharsis9/50-projects/tree/main/Netflix%20Mobile%20Navigation)       | [Live Demo](https://anakharsis9.github.io/50-projects/Netflix%20Mobile%20Navigation)    |
 | 46  | [Quiz App](https://github.com/Anakharsis9/50-projects/tree/main/Quiz%20App)                                           | [Live Demo](https://anakharsis9.github.io/50-projects/Quiz%20App)                       |
+| 47  | [Testimonial Box Switcher](https://github.com/Anakharsis9/50-projects/tree/main/Testimonial%20Box%20Switcher)         | [Live Demo](https://anakharsis9.github.io/50-projects/Testimonial%20Box%20Switcher)     |
