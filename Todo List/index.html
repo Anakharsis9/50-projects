@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Todo list</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://unpkg.com/vue@3.2.36/dist/vue.global.prod.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js"
+      integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div id="app">
+      <h1 class="title">Todos</h1>
+      <input
+        v-model="todoText"
+        @keyup.enter="addTodo"
+        type="text"
+        class="todo__input"
+        placeholder="Enter your todo"
+      />
+      <div class="todos">
+        <Todo
+          v-for="todo in todos"
+          :key="todo.id"
+          :todo="todo"
+          @delete-todo="deleteTodo"
+          @checked="updateTodos"
+        />
+      </div>
+    </div>
+
+    <script type="text/x-template" id="todo-template">
+      <div class="todo">
+        <div class="todo__info">
+          <input v-model="todo.checked" @change="$emit('checked')" type="checkbox" class="todo__checkbox" />
+          <label class="todo__label">{{todo.text}}</label>
+        </div>
+        <button @click="$emit('deleteTodo', todo.id)" class="todo__btn">
+          <i class="fa-regular fa-trash-can"></i>
+        </button>
+      </div>
+    </script>
+  </body>
+</html>
