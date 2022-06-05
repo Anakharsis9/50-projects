@@ -55,3 +55,4 @@ This is a small challenge where I do at least one project every day.
 | 47  | [Testimonial Box Switcher](https://github.com/Anakharsis9/50-projects/tree/main/Testimonial%20Box%20Switcher)         | [Live Demo](https://anakharsis9.github.io/50-projects/Testimonial%20Box%20Switcher)     |
 | 48  | [Random Image Feed](https://github.com/Anakharsis9/50-projects/tree/main/Random%20Image%20Feed)                       | [Live Demo](https://anakharsis9.github.io/50-projects/Random%20Image%20Feed)            |
 | 49  | [Todo List](https://github.com/Anakharsis9/50-projects/tree/main/Todo%20List)                                         | [Live Demo](https://anakharsis9.github.io/50-projects/Todo%20List)                      |
+| 50  | [Insect Catch Game](https://github.com/Anakharsis9/50-projects/tree/main/Insect%20Catch%20Game)                       | [Live Demo](https://anakharsis9.github.io/50-projects/Insect%20Catch%20Game)            |

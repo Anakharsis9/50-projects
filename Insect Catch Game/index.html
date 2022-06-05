@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Insect Catch Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="start-wrapper step">
+        <h1 class="title">Catch The Insect</h1>
+        <button class="btn" id="playBtn">
+          Play Game
+          <a href="#select-insect"></a>
+        </button>
+      </div>
+    </div>
+    <div class="container" id="select-insect">
+      <div class="select-insect-wrapper step">
+        <h1 class="title">What is your "favorite" insect?</h1>
+        <div class="insects">
+          <button class="btn insect">
+            <a href="#game" id="fly"></a>
+            <span class="insect__name">Fly</span>
+            <div class="insect__img">
+              <img src="./fly.png" alt="fly" />
+            </div>
+          </button>
+          <button class="btn insect">
+            <a href="#game" id="mosquito"></a>
+            <span class="insect__name">Mosquito</span>
+            <div class="insect__img">
+              <img src="./mosquito.png" alt="mosquito" />
+            </div>
+          </button>
+          <button class="btn insect">
+            <a href="#game" id="spider"></a>
+            <span class="insect__name">Spider</span>
+            <div class="insect__img">
+              <img src="./spider.png" alt="spider" />
+            </div>
+          </button>
+          <button class="btn insect">
+            <a href="#game" id="roach"></a>
+            <span class="insect__name">Roach</span>
+            <div class="insect__img">
+              <img src="./roach.png" alt="roach" />
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="container game-container" id="game">
+      <div class="alert">
+        <div class="text">
+          Are you annnoyed yet? <br />
+          You are playing an impossible game!!
+        </div>
+      </div>
+      <div class="game-info">
+        <div class="timer-wrapper">
+          Time:
+          <span class="timer">00:00</span>
+        </div>
+        <div class="score-wrapper">
+          Score:
+          <span class="score">0</span>
+        </div>
+      </div>
+      <div class="game-board"></div>
+    </div>
+  </body>
+</html>
